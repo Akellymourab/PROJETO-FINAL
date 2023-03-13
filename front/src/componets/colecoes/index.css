@@ -1,0 +1,34 @@
+
+
+.pa {
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.para {
+    display: flex;
+    justify-content: center; 
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.cam {
+    
+    width: 320px;
+    height:205px;
+}
+
+.fon {
+    
+    width: 320px;
+    height:205px;
+}
+
+.ten {
+    
+    width: 320px;
+    height:205px;
+}
