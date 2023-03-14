@@ -1,0 +1,22 @@
+.corpoF{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    color: #FFFFFF;
+    background: #1F1F1F;
+}
+.logo{
+    display: block;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+line-height: 44px;
+
+letter-spacing: -0.01em;
+
+
+color: #FFFFFF;
+background: #1F1F1F;
+}
