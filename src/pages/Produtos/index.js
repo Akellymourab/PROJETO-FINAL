@@ -4,6 +4,7 @@ import {Card, Button, Grid} from "@mui/material"
 
 function CadaProduto(props){
     const [quantidade, alterarQuantidade, ] = React.useState(1);
+    
 
   const add = () => {
     alterarQuantidade(quantidade + 1);
@@ -28,33 +29,27 @@ function CadaProduto(props){
 }
 
 export default function Produtos() {
+  const [lista, setLista] = React.useState([]);
+
+  React.useEffect(() => {
+    fetch('http://localhost:8000/produtos')
+          .then(res => res.json())
+          .then(dados => setLista(dados));
+  }, [])
 
   return (
     <div>      
       pagina de produtos
       <hr/>
         <Grid container spacing={4}>
-            <Grid item>
-                <CadaProduto produto= "lasanha" valor= "30.00"/>
-            </Grid>
-            <Grid item>
-                <CadaProduto produto="risoto de camarão" valor="50.00"/>
-            </Grid>
-            <Grid item>
-                <CadaProduto produto= "pratinho" valor= "10.50"/>
-            </Grid>
-            <Grid item>
-                <CadaProduto produto= "x-burguer" valor= "34.99"/>
-            </Grid>
-            <Grid item>
-                <CadaProduto produto= "batata frita 300g" valor= "14.99"/>
-            </Grid>
-            <Grid item>
-                <CadaProduto produto= "suco de laranja 500ml" valor= "12.99"/>
-            </Grid>
-            <Grid item>
-                <CadaProduto produto= "agua s/gas" valor= "1.50"/>
-            </Grid>
+            {lista.map(cada =>{
+              return(
+                <Grid item>
+                <CadaProduto produto={cada.nome} valor={cada.preco}/>
+                </Grid>
+              )  
+            })}
+            
             <hr/>
             
         </Grid>

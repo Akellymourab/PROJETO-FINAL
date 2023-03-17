@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Produtos from "./pages/Produtos";
 import Categorias from "./pages/Categorias";
 import MeusPedidos from "./pages/MeusPedidos";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import DetalhesProduto from "./pages/DetalhesProduto";
 
 import "./index.css";
