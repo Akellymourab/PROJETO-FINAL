@@ -9,14 +9,14 @@ span{
 .dt{
     color: #474747;
     margin-top: -7px;
-    font-size: 24px;
+    font-size: 1.3rem;
 }
 .money s{
     color: #8F8F8F;
 }
 .money{
-    margin-top: -25px;
-    font-size: 24px;
+    margin-top: -15px;
+    font-size: 1rem;
 }
 .desconto{
     background-color: #E7FF86;
@@ -32,5 +32,8 @@ span{
 .desconto strong{
     color: black;
     font-size: 15px;
+}
+img{
+    margin-left: -20px;
 }
 /*                                                                                   */
