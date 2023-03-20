@@ -1,20 +1,109 @@
-import { Button, Paper, Stack } from '@mui/material';
-import { blue, pink } from '@mui/material/colors';
-import React from 'react';
-import sapato from './produto.png';
+import {Paper, Stack, Badge, Container, Grid} from "@mui/material";
+import React from "react";
+import tenis from './tenis.png'
+import '../Produto/style.css'
+import "../Produto/style.css"
+import LinkProduto from "../LinkProduto";
 
-export default function Produto()
-{
+export default function Produto(){
     return(
         <>
-            <Stack>
-                <Paper elevation={2} sx={{backgroundColor: pink['A200']}}>
-                    <img src={sapato} />
-                </Paper>
-                <span>Categoria</span>
-                <h4>Nome do produto</h4>
-                <Button sx={{ backgroundColor: blue[500]}}>Compre agora</Button>
-            </Stack>
+            <Container>
+                <LinkProduto/>
+                <br/>
+                <Grid container spacing={3}>
+                    <Grid item md={3}>
+                        <Stack >
+                            <Paper className="quadro" elevation={2}>
+                            <Badge className="desconto"><strong>30% off</strong></Badge>
+                                <img className="local1" src={tenis}/>
+                            </Paper>
+                        </Stack>
+                            <span>Tenis</span>
+                            <p className="dt">K-Swiss V8 - Masculino</p>
+                            <p className="money"><s>$200 </s><strong>$100</strong></p>
+                    </Grid>
+
+                    <Grid item md={3}>
+                        <Stack >
+                            <Paper className="quadro" elevation={2}>
+                            <Badge className="desconto"><strong>30% off</strong></Badge>
+                                <img className="local1" src={tenis}/>
+                            </Paper>
+                        </Stack>
+                            <span>Tenis</span>
+                            <p className="dt">K-Swiss V8 - Masculino</p>
+                            <p className="money"><s>$200 </s><strong>$100</strong></p>
+                    </Grid>
+
+                    <Grid item md={3}>
+                        <Stack >
+                            <Paper className="quadro" elevation={2}>
+                                <img src={tenis}/>
+                            </Paper>
+                        </Stack>
+                            <span>Tenis</span>
+                            <p className="dt">K-Swiss V8 - Masculino</p>
+                            <p className="money"><s>$200 </s><strong>$100</strong></p>
+                    </Grid>
+
+                    <Grid item md={3}>
+                        <Stack >
+                            <Paper className="quadro" elevation={2}>
+                                <img src={tenis}/>
+                            </Paper>
+                        </Stack>
+                            <span>Tenis</span>
+                            <p className="dt">K-Swiss V8 - Masculino</p>
+                            <p className="money"><s>$200 </s><strong>$100</strong></p>
+                    </Grid>
+
+                    <Grid item md={3}>
+                        <Stack >
+                            <Paper className="quadro" elevation={2}>
+                                <img src={tenis}/>
+                            </Paper>
+                        </Stack>
+                            <span>Tenis</span>
+                            <p className="dt">K-Swiss V8 - Masculino</p>
+                            <p className="money"><s>$200 </s><strong>$100</strong></p>
+                    </Grid>
+
+                    <Grid item md={3}>
+                        <Stack >
+                            <Paper className="quadro" elevation={2}>
+                                <img src={tenis}/>
+                            </Paper>
+                        </Stack>
+                            <span>Tenis</span>
+                            <p className="dt">K-Swiss V8 - Masculino</p>
+                            <p className="money"><s>$200 </s><strong>$100</strong></p>
+                    </Grid>
+
+                    <Grid item md={3}>
+                        <Stack >
+                            <Paper className="quadro" elevation={2}>
+                                <img src={tenis}/>
+                            </Paper>
+                        </Stack>
+                            <span>Tenis</span>
+                            <p className="dt">K-Swiss V8 - Masculino</p>
+                            <p className="money"><s>$200 </s><strong>$100</strong></p>
+                    </Grid>
+
+                    <Grid item md={3}>
+                        <Stack >
+                            <Paper className="quadro" elevation={2}>
+                                <img src={tenis}/>
+                            </Paper>
+                        </Stack>
+                            <span>Tenis</span>
+                            <p className="dt">K-Swiss V8 - Masculino</p>
+                            <p className="money"><s>$200 </s><strong>$100</strong></p>
+                    </Grid>
+
+                </Grid>
+            </Container>
         </>
-    );
+    )
 }

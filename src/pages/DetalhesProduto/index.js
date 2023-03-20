@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Button, Card, Fab, Grid, Rating } from "@mui/material";
 import { useParams } from "react-router-dom"
 import Tenis1 from "../DetalhesProduto/img/tenis1.png"
@@ -8,7 +8,7 @@ import Tenis4 from "../DetalhesProduto/img/tenis4.png"
 import Tenis5 from "../DetalhesProduto/img/tenis5.png"
 import { Stack } from "@mui/system";
 import Zoom from "react-img-zoom";
-import { ChevronLeft, ChevronRight, Star, StarOutline } from "@mui/icons-material";
+import { ChevronLeft, ChevronRight, } from "@mui/icons-material";
 import "../DetalhesProduto/styles.scss"
 import Footer from "../../components/Footer";
 
@@ -16,7 +16,7 @@ export default function DetalhesProduto(){
     const {id} = useParams();
     const [atual, setAtual] = React.useState(0);
     const [color, setColor] = React.useState('Todas as cores');
-    const [listaTenis, setListaTenis] = React.useState([]);
+    const [setListaTenis] = React.useState([]);
 
     const imagens = [
         Tenis1,
@@ -108,11 +108,6 @@ export default function DetalhesProduto(){
                     </div>
                     <br/>
                     <div className="reviews">
-                        {/* <Star/>
-                        <Star/>
-                        <Star/>
-                        <Star/>
-                        <StarOutline/> */}
 
                         <Rating value={4}/>
                     </div>
