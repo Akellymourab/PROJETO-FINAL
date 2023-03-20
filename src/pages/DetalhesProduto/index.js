@@ -140,7 +140,7 @@ export default function DetalhesProduto(){
                     <Button className="buy" variant="contained">Comprar</Button>
                 </Grid>
             </Grid>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     )
 }

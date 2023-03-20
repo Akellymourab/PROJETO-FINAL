@@ -12,7 +12,8 @@ export default function Footer() {
                 
                     <img src={imagem}/>
                 
-                </div>   
+                </div>  
+            <div className="corpoTextos">     
                 <p>Desta maneira, o início da atividade geral de 
                     <br/>
                     formação e atitudes representa uma abertura para a
@@ -59,6 +60,7 @@ export default function Footer() {
                         (85)3051-3411
                     </ul>
                 </div>
+            </div>
 
             </div>
             

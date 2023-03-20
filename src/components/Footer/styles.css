@@ -1,7 +1,12 @@
 .corpoF{
+    display: -webkit-inline-box;
+    background: #1F1F1F;
+}
+.corpoTextos{
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
     
 
     color: #FFFFFF;

@@ -1,6 +1,6 @@
 import CarouselNuka from 'nuka-carousel';
-import img from './White-Sneakers-PNG-Clipart 1.png';
-import img2 from './Laye 1.png';
+import img from '../Carousel/White-Sneakers-PNG-Clipart 1.png';
+import img2 from '../Carousel/Laye 1.png';
 
 
 export default function Carousel(){
