@@ -8,6 +8,7 @@ import Navbar from "../../components/Navbar";
 import OfertaEspecial from "../../components/OfertaEspecial";
 import Footer from "../../components/Footer"
 import ColecoesDestaque from "../../components/ColecoesDestaque";
+import Produto from "../../components/Produto";
 
 
 export default function Home(){
@@ -39,13 +40,9 @@ export default function Home(){
       <Container>
         <ColecoesDestaque/>
       </Container>
-      {/* <Container>
-        <Grid container spacing={3}>
-          <Grid item md={3}>
-          <Produto />
-          </Grid>
-      </Grid>
-      </Container> */}
+      <Container>
+        <Produto/>
+      </Container>
       
       <OfertaEspecial/>
 

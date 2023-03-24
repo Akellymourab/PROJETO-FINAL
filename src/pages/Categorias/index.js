@@ -1,13 +1,19 @@
-import React from "react"
-import Footer from "../../components/Footer"
+import React from 'react'
+import Menu from '../../components/Menu'
+import Footer from '../../components/Footer'
+import Navbar from '../../components/Navbar'
 
-export default function Categorias() {
-    return (
-        <>
+export default function Categorias(){
+    return(
+        <div>
+            <Navbar/>
+            <br/>
+            <Menu/>
             <div>
-                Pagina de Categorias
+            Pagina de categosrioas 
             </div>
             <Footer/>
-        </>
-    )
+        </div>
+        
+        )
 }

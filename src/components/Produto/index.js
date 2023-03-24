@@ -4,17 +4,15 @@ import tenis from './tenis.png'
 import '../Produto/style.css'
 import "../Produto/style.css"
 import LinkProduto from "./LinkProduto";
-import Footer from "../Footer";
-import Navbar from "../Navbar";
-import Menu from "../Menu";
+// import Footer from "../Footer";
+// import Navbar from "../Navbar";
+// import Menu from "../Menu";
 
 export default function Produto(){
     return(
         <>
-        <Navbar/>
-        <Menu/>
             <Container>
-                <LinkProduto/>
+                {/* <LinkProduto/> */}
                 <br/>
                 <Grid container spacing={3}>
                     <Grid item md={3}>
@@ -109,7 +107,6 @@ export default function Produto(){
 
                 </Grid>
             </Container>
-            <Footer/> 
         </>
     )
 }
