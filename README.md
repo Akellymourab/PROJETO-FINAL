@@ -1,71 +1,61 @@
-# Getting Started with Create React App
+Tópicos 🔵
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔹 Descrição do projeto
 
-## Available Scripts
+🔹 Funcionalidades
 
-In the project directory, you can run:
+🔹 Como rodar a aplicação
 
-### `npm start`
+🔹 Tecnologias utilizadas 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔹 Desenvolvedores e contribuintes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+...
 
-### `npm test`
+Descrição do projeto📃
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Projeto desenvolvido no curso de FullStack na Digital College Fortaleza. O projeto é uma recriação do de três páginas do Figma Digital Store disponível em: https://www.figma.com/file/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=101%3A2 .
 
-### `npm run build`
+Status do Projeto💡
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+⛏️ Em construção ⛏️
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Funcionalidades✔️
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Head com opções de pesquisa, menu, login e carrinho;
+Carrossel com fotos dos produtos em oferta;
+Conjunto de três coleções com botões;
+Ícones relacionados as categorias de produtos;
+Lista de produtos em alta com foto, preço e desconto do produto;
+Rodapé.
 
-### `npm run eject`
+...
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Como rodar a aplicação▶️
+No terminal, clone o projeto:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/squad-30/OrangeEvolution-Squad30.git
+Entre na massa do projeto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+cd PROJETO-FINAL
+Instale como dependências:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
+Executar uma aplicação:
 
-## Learn More
+npm start
+Pronto, agora é possível acessar um aplicativo a partir da rota: https://localhost:3000/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+...
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Tecnologias utilizadas 💻
+JavaScript
+React 
+...
 
-### Code Splitting
+Desenvolvedoras 👩‍💻
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# testeProjetoFinal
+Ana Kelly 
+Marília Mota
+Maria Mariana
+Thalita Feitosa
