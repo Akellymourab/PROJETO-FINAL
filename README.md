@@ -55,7 +55,7 @@ React
 
 🔵 Desenvolvedoras 👩‍💻
 
-Ana Kelly 
-Marília Mota
-Maria Mariana
-Thalita Feitosa
+Ana Kelly, 
+Marília Mota,
+Maria Mariana,
+Thalita Feitosa,
