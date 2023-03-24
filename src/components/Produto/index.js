@@ -1,13 +1,18 @@
-import {Paper, Stack, Badge, Container, Grid} from "@mui/material";
 import React from "react";
+import {Paper, Stack, Badge, Container, Grid} from "@mui/material";
 import tenis from './tenis.png'
 import '../Produto/style.css'
 import "../Produto/style.css"
-import LinkProduto from "../LinkProduto";
+import LinkProduto from "./LinkProduto";
+import Footer from "../Footer";
+import Navbar from "../Navbar";
+import Menu from "../Menu";
 
 export default function Produto(){
     return(
         <>
+        <Navbar/>
+        <Menu/>
             <Container>
                 <LinkProduto/>
                 <br/>
@@ -104,6 +109,7 @@ export default function Produto(){
 
                 </Grid>
             </Container>
+            <Footer/> 
         </>
     )
 }

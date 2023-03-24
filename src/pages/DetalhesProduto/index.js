@@ -11,6 +11,9 @@ import Zoom from "react-img-zoom";
 import { ChevronLeft, ChevronRight, } from "@mui/icons-material";
 import "../DetalhesProduto/styles.scss"
 import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
+import Menu from "../../components/Menu";
+
 
 export default function DetalhesProduto(){
     const {id} = useParams();
@@ -73,9 +76,11 @@ export default function DetalhesProduto(){
     }, [])
 
     return(
+        
         <div className="product-details">
-            Detalhes do Produto {id}
-
+            <Navbar/>
+            <Menu/>
+            <br/>
             <Grid container spacing={3}>
                 <Grid item xs={7}>
                     <Card align="center">
@@ -139,8 +144,11 @@ export default function DetalhesProduto(){
                     <br/>
                     <Button className="buy" variant="contained">Comprar</Button>
                 </Grid>
+                
             </Grid>
-            {/* <Footer/> */}
+            
+            <Footer/>
+            
         </div>
     )
 }

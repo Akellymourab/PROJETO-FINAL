@@ -1,6 +1,7 @@
+import React from 'react'
 import { Stack, Container } from "@mui/system"
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import "../LinkProduto/style.css"
+import "./style.css"
 
 export default function LinkProduto(){
     return(

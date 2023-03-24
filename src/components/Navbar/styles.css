@@ -1,7 +1,28 @@
+.ds{
+    color: #C92071;
+    /* position: absolute; */
+    /* align-items: stretch; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    /* top: 0%;
+    left: 4%; */
+    /* margin: 10px; */
+    }
+    
 .red {
     color: #C92071;
-    
-    
+    position: absolute;
+    display: block;
+    left: 90%;
+    right: 11.46%;
+    top: 22px;
+    bottom: 30.27%;
+    font-size: 2rem;
+   margin: 10px;
 }
 
 .entrar{
@@ -17,6 +38,8 @@
     border-radius: 8px;
     left: 77%;
     top: 15px;
+
+    margin: 10px;
 }
 
 .procura{
@@ -25,4 +48,13 @@
     height: 60px;
     left: 384px;
     top: 0px;
+
+    margin: 10px;
 }
+/* .ent{
+    text-transform: capitalize;
+}
+
+.cad{
+    text-decoration: underline;
+} */

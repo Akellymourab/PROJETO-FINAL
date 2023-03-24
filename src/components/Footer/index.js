@@ -1,25 +1,38 @@
 import React from "react";
 import '../Footer/styles.css';
 import imagem from '../Footer/imgDigitalStore.png' 
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import { Icon } from "@mui/material";
 
 export default function Footer() {
     return (
-        
-        <div>
+        <footer>
             <div class="corpoF">
             
                 <div class="logo">
                 
                     <img src={imagem}/>
-                
-                </div>  
-            <div className="corpoTextos">     
-                <p>Desta maneira, o início da atividade geral de 
+
+                    <p>Desta maneira, o início da atividade geral de 
                     <br/>
                     formação e atitudes representa uma abertura para a
                     <br/>
                     melhoria do impacto na agilidade decisória.</p>
-                        
+                    <a href="https://www.facebook.com/digitalcollegebr/">
+                    <FacebookIcon sx={{ color:"white" }}/>
+                    </a>        
+                    <a href="https://www.instagram.com/digitalcollegebr/">
+                    <InstagramIcon sx={{ color:"white" }}/>
+                    </a>        
+                    <a href="https://www.facebook.com/digitalcollegebr/">
+                    <TwitterIcon sx={{ color:"white" }}/>
+                    </a>        
+                
+                </div>  
+            <div className="corpoTextos">     
+                
         
     
                 <div class="inf">
@@ -61,10 +74,10 @@ export default function Footer() {
                     </ul>
                 </div>
             </div>
-
+            {/* <hr/>
+            <p>@2023 Digital College</p> */}
             </div>
             
-        </div>
-         
+    </footer>     
     )
 }
