@@ -35,7 +35,7 @@ Rodapé.
 
 No terminal, clone o projeto:
 
-git clone https://github.com/squad-30/OrangeEvolution-Squad30.git
+git clone https://github.com/Akellymourab/PROJETO-FINAL
 Entre na massa do projeto:
 
 cd PROJETO-FINAL
